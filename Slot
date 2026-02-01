@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GOLD SLOT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="box">
+  <h1>🎰 GOLD SLOT</h1>
+  <div class="coin">Coin: <span id="coin">100</span></div>
+  <div class="slot">
+    <div id="r1">?</div>
+    <div id="r2">?</div>
+    <div id="r3">?</div>
+  </div>
+  <button onclick="spin()">SPIN</button>
+  <p id="msg"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
