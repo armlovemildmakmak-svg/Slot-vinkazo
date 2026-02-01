@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title>GOLD SLOT</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="box">
+<div class="box" id="auth-box">
+  <h2>Login / Register</h2>
+  <input id="username" placeholder="Username">
+  <input id="password" placeholder="Password" type="password">
+  <button onclick="login()">Login</button>
+  <button onclick="registerUser()">Register</button>
+  <p id="auth-msg"></p>
+</div>
+
+<div class="box" id="game-box" style="display:none;">
   <h1>🎰 GOLD SLOT</h1>
   <div class="coin">Coin: <span id="coin">100</span></div>
   <div class="slot">
@@ -18,6 +18,3 @@
   <button onclick="spin()">SPIN</button>
   <p id="msg"></p>
 </div>
-<script src="script.js"></script>
-</body>
-</html>
